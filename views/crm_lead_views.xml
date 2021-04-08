@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+   <record id="crm_case_form_view_oppor_inherit_product" model="ir.ui.view">
+        <field name="name">crm.lead.oppor.inherited</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_lead_view_form" />
+        <field name="arch" type="xml">
+
+            <!-- Reemplazar la Pestaña de CRM por la encuenta de Registro -->
+
+            <xpath expr="//page[@name='lead']" position="after">
+                <!--page string="Información Empresa" name="modulo1">
+                   
+                    <group string="Modúlo 1:" style="line-height: 25px;">
+                        <group>
+                            <field name="x_nombre_negocio"/>
+                            <field name="x_nombre"/>                
+                        </group>
+                    </group>
+                </page-->
+
+                  <page string="Formulario" name="modulo3">
+
+                     <group string="Planear">
+
+                    
+                        <br/><field name="x_proto1" style="width:80%%"/>
+                        <field name="x_proto2" style="width:80%%"/>
+                        <field name="x_proto3" style="width:80%%"/>
+                        <field name="x_proto4" style="width:80%%"/>
+                        <field name="x_proto5" style="width:80%%"/>
+                        <field name="x_proto6" style="width:80%%"/>
+                        <field name="x_proto7" style="width:80%%"/>
+                        <field name="x_proto8" style="width:80%%"/>
+                        <field name="x_proto9" style="width:80%%"/>
+                        <field name="x_proto10" style="width:80%%"/>
+                        <field name="x_proto11" style="width:80%%"/>
+                        <field name="x_proto12" style="width:80%%"/>
+                        <field name="x_proto13" style="width:80%%"/>
+                      
+                    </group>
+
+                  <group string="Hacer">
+                       <br/><field name="x_proto14" style="width:80%%"/>
+                        <field name="x_proto15" style="width:80%%"/>
+                        <field name="x_proto16" style="width:80%%"/>
+                        <field name="x_model21" style="width:80%%"/>
+                        <field name="x_model22" style="width:80%%"/>
+                        <field name="x_model23" style="width:80%%"/>
+                        <field name="x_model24" style="width:80%%"/>
+                        <field name="x_model25" style="width:80%%"/>
+                        <field name="x_model26" style="width:80%%"/>
+                        <field name="x_model27" style="width:80%%"/>
+                        <field name="x_model28" style="width:80%%"/>
+                        <field name="x_model29" style="width:80%%"/>
+                        
+                  </group>
+
+                  <group string="Verificar">
+   
+                   <br/> <field name="x_model30" style="width:80%%"/>
+                   <field name="x_model31" style="width:80%%"/>
+                   <field name="x_model32" style="width:80%%"/>
+
+                  </group>
+                  <group string="Actuar">
+
+                    <br/><field name="x_model33" style="width:80%%"/>
+                    <field name="x_model34" style="width:80%%"/>
+                   
+                  </group>
+            </page>
+            </xpath>
+        </field>
+</record>
+
+</odoo>
