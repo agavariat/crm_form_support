@@ -161,7 +161,7 @@ class Lead(models.Model):
     x_riesgo = fields.Selection(
         [
             ('I,_II_y_III', 'I, II y III'),
-            ('I,_II,_III,_IV_y_V', 'I, II, III, IV y V),
+            ('I,_II,_III,_IV_y_V', 'I, II, III, IV y V'),
             ('IV_y_V', 'IV y V'),
         ], "¿Qué clase que riesgo tiene?",
     )
