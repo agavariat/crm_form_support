@@ -147,6 +147,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "1. ¿ Su empresa afilia a todos sus empleados a la Seguridad Social (pensiones, salud y ARL)?",
     )
 
@@ -154,6 +155,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "2. ¿Ha definido una Política de Seguridad y Salud en el trabajo?",
     )
 
@@ -161,6 +163,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "3. ¿Ha creado un Documento del Sistema de Gestión de Seguridad y Salud SGSST en el Trabajo?",
     )
 
@@ -168,6 +171,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "4. ¿Están definidos los objetivos del SG-SST, son medibles, coherentes con el Plan de trabajo Anual en SST, se encuentran documentados, comunicados a los trabajadores y son evaluados periódicamente y actualizados de ser necesario?",
     )
 
@@ -175,6 +179,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "5. ¿Cuenta con un documento “deberes y responsabilidades del Empleador y del trabajador”; está divulgado a sus trabajadores y se le hace seguimiento?",
     )
 
@@ -182,6 +187,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "6. ¿Sus empleados conocen sus responsabilidades en cuanto al Sistema de Seguridad y Salud en el Trabajo?",
     )
 
@@ -189,6 +195,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "7. ¿La empresa ha diseñado una herramienta de comunicación en doble dirección del (empleador con el empleado ), se encuentra documentada en algún documento especificando su procedimiento?",
     )
 
@@ -196,6 +203,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "8. ¿La empresa cuenta con Indicadores del sistema de gestión de seguridad y salud en el trabajo?",
     )
 
@@ -203,6 +211,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "9. ¿Su empresa Cuenta con el Vigía Ocupacional o con el Comité Paritario de Seguridad y salud en el Trabajo (COPASST)?",
     )
 
@@ -210,6 +219,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "10. ¿Su empresa Cuenta con el Reglamento interno de trabajo y lo divulga entre los trabajadores?",
     )
 
@@ -217,6 +227,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "11. ¿Cuenta con el Reglamento de Higiene y seguridad industrial y lo divulga?",
     )
 
@@ -224,6 +235,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "12. ¿Identifica sus Peligros, Evalua y Valora los Riesgos?",
     )
 
@@ -231,6 +243,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "13. ¿Cuenta con Programa anual de capacitación y lo divulga?",
     )
 
@@ -245,6 +258,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "14. Realiza Inspecciones planeadas y Realiza correctivos?",
     )
 
@@ -252,6 +266,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "15. Cuenta con Fichas de seguridad de las sustancias quimicas que utiliza?",
     )
 
@@ -259,6 +274,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "16. Cuenta con Procedimientos, instructivos y normas de seguridad para riesgos prioritarios?",
     )
     
@@ -266,6 +282,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "17. Cuenta con un Programa de Elementos de Protección Personal, donde se identifique cuales necesita, como se utilizan, se capacite al personal y se tenga un plan de reposición?",
         oldname="model21"
     )
@@ -273,6 +290,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "18. Realiza Exámenes médicos de ingreso, periódicos y de retiro a sus trabajadores?",
         oldname="model22"
     )
@@ -280,6 +298,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "19. Cuenta con Programas de Vigilancia Epidemiológica específicos de sus riesgos prioritarios que puedan generar una enfermedad laboral?",
         oldname="model23"
     )
@@ -287,20 +306,23 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "20. Cuenta con un Plan de prevención, preparación y respuesta ante emergencias",
         oldname="model24"
     )
     x_model25 = fields.Selection(
         [
             ('si', 'Si'),
-            ('no', 'No'),     
+            ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "21. Cuenta con una Brigada de emergencias capacitada?",
         oldname="model25"
     )
     x_model26 = fields.Selection(
         [
             ('si', 'Si'),
-            ('no', 'No'),    
+            ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "22. Cuenta con un Plan de evacuación y sus responsables?",
         oldname="model26"
     )
@@ -308,6 +330,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "23. Realiza Simulacros por lo menos una vez al año?",
         oldname="model27"
     )
@@ -315,6 +338,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "24. Realiza la Investigación de los Accidentes de Trabajo en los tiempos establecidos por la legislación Nal?",
         oldname="model28"
     )
@@ -322,6 +346,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "25. Cumple con el desarrollo del programa de Capacitación?",
         oldname="model29"
     )
@@ -331,6 +356,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "26. Valida la gerencia el cumplimiento del sistema de gestión de seguridad y salud en el trabajo?",
         oldname="model30"
     )
@@ -338,6 +364,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "27. Gestiona los Correctivos generadados por la investigación de accidentes de trabajo?",
         oldname="model31"
     )
@@ -345,6 +372,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "28. Cuenta con indicadores para medir la gestión en seguridad y salud en el trabajo?",
         oldname="model32"
     )
@@ -354,6 +382,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "29. Genera y gestiona Acciones preventivas y correctivas?",help="Una acción correctiva es aquella que llevamos a cabo para eliminar la causa de un problema. Las correcciones atacan los problemas, las acciones correctivas sus causas. Las acciones preventivas se anticipan a la causa, y pretenden eliminarla antes de su existencia. Evitan los problemas identificando los riesgos. Cualquier acción que disminuya un riesgo es una acción preventiva",
         oldname="model33"
     )
@@ -361,6 +390,7 @@ class Lead(models.Model):
         [
             ('si', 'Si'),
             ('no', 'No'),
+            ('no_aplica', 'No Aplica'),
         ], "30. Mejora continua: Da las directrices y otorgar los recursos necesarios PARA mejorar la eficacia de sus actividades en el sistema de gestión de seguridad y salud en el trabajo?",
         oldname="model34"
     )
