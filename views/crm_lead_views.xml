@@ -5,6 +5,10 @@
         <field name="model">crm.lead</field>
         <field name="inherit_id" ref="crm.crm_lead_view_form" />
         <field name="arch" type="xml">
+        <field name="x_actecon"/>
+        <field name="x_acteconcod"/>
+        <field name="x_nempleados"/>
+        <field name="x_riesgo"/>
 
             <!-- Reemplazar la Pestaña de CRM por la encuenta de Registro -->
 
@@ -20,6 +24,12 @@
                 </page-->
 
                   <page string="Formulario" name="modulo3">
+
+                        <field name="x_actecon" style="width:80%%"/>
+                        <field name="x_acteconcod" style="width:80%%"/>
+                        <field name="x_nempleados" style="width:80%%"/>
+                        <field name="x_riesgo" style="width:80%%"/>
+
 
                      <group string="Planear">
 
