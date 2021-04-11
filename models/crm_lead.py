@@ -138,15 +138,9 @@ class Lead(models.Model):
         ], "DESEA CONTINUAR CON EL DIAGNOSTICO",
     )
 
-    x_actecon = fields.Char(
-        string="¿Cuál es la actividad económica?",
-        help="¿Cuál es la actividad económica?",
-    )
+    x_actecon = fields.Char(string="¿Cuál es la actividad económica?", help="¿Cuál es la actividad económica?")
 
-    x_acteconcod = fields.Char(
-        string="¿Cuál es su código CIIU?",
-        help="¿Cuál es su código CIIU?",
-    )
+    x_acteconcod = fields.Char(string="¿Cuál es su código CIIU?", help="¿Cuál es su código CIIU?")
 
     x_nempleados = fields.Selection(
         [
