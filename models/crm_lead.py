@@ -121,7 +121,7 @@ class Lead(models.Model):
     _sql_constraints = [
         ('x_identification',
          'UNIQUE (x_identification)',
-         "El número de documento debe ser único!"),
+         "El número de documento debe ser único"),
     ]
 
     x_cont1 = fields.Selection(
@@ -156,6 +156,7 @@ class Lead(models.Model):
             ('mas_de_50_trabajadores', 'Más de 50 trabajadores'),
             ('cualquier_numero_de_trabajadores', 'Cualquier número de trabajadores'),
         ], "¿Cuál es el número de empleados?",
+        string="¿Cuántos empleados tiene?",
     )
 
     x_riesgo = fields.Selection(
@@ -164,6 +165,7 @@ class Lead(models.Model):
             ('I,_II,_III,_IV_y_V', 'I, II, III, IV y V'),
             ('IV_y_V', 'IV y V'),
         ], "¿Qué clase que riesgo tiene?",
+        string="¿Qué tipo de riesgo tiene?",
     )
 
     
