@@ -152,17 +152,17 @@ class Lead(models.Model):
         [
             ('10_o_menos_trabajadores', '10 o menos trabajadores'),
             ('de_11_hasta_50_trabajadores', 'De 11 hasta 50 trabajadores'),
-            ('unidades_de_producción_agropecuaria_(hasta_10_trabajadores)', 'Unidades de producción agropecuaria (hasta 10 trabajadores'),
             ('mas_de_50_trabajadores', 'Más de 50 trabajadores'),
-            ('cualquier_numero_de_trabajadores', 'Cualquier número de trabajadores'),
         ], "¿Cuál es el número de empleados?",
     )
 
     x_riesgo = fields.Selection(
         [
-            ('I,_II_y_III', 'I, II y III'),
-            ('I,_II,_III,_IV_y_V', 'I, II, III, IV y V'),
-            ('IV_y_V', 'IV y V'),
+            ('I', 'I'),
+            ('II', 'II'),
+            ('III', 'III'),
+            ('IV', 'IV'),
+            ('V', 'V'),
         ], "¿Qué clase que riesgo tiene?",
     )
 
