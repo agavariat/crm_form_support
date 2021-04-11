@@ -156,7 +156,6 @@ class Lead(models.Model):
             ('mas_de_50_trabajadores', 'Más de 50 trabajadores'),
             ('cualquier_numero_de_trabajadores', 'Cualquier número de trabajadores'),
         ], "¿Cuál es el número de empleados?",
-        string="¿Cuántos empleados tiene?",
     )
 
     x_riesgo = fields.Selection(
@@ -165,7 +164,6 @@ class Lead(models.Model):
             ('I,_II,_III,_IV_y_V', 'I, II, III, IV y V'),
             ('IV_y_V', 'IV y V'),
         ], "¿Qué clase que riesgo tiene?",
-        string="¿Qué tipo de riesgo tiene?",
     )
 
     
