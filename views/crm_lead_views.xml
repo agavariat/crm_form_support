@@ -24,12 +24,14 @@
 
 
                      <group string="Información importante">
-                        <field name="x_actecon" style="width:80%%"/>
+                        
+                        <br/><field name="x_actecon" style="width:80%%"/>
                         <field name="x_acteconcod" style="width:80%%"/>
                         <field name="x_nempleados" style="width:80%%"/>
                         <field name="x_riesgo" style="width:80%%"/>
 
                      </group>
+
                      <group string="Planear">
 
                     
@@ -67,7 +69,7 @@
 
                   <group string="Verificar">
    
-                   <br/> <field name="x_model30" style="width:80%%"/>
+                   <br/><field name="x_model30" style="width:80%%"/>
                    <field name="x_model31" style="width:80%%"/>
                    <field name="x_model32" style="width:80%%"/>
 
